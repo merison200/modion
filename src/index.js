@@ -19,7 +19,7 @@ app.use(cookieParser());
 // CORS setup
 app.use(
   cors({
-    origin: [process.env.CLIENT_URL, 'null'],
+    origin: ['https://modion.vercel.app', 'http://localhost:5173'],
     credentials: true,
   })
 );
